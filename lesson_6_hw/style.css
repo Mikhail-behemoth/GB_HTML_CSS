@@ -4,16 +4,16 @@
 }
 
 .top {
-    padding-bottom: 96;
+    padding-bottom: 96px;
 }
 
 .header {
-    margin-top: 40;
+    margin-top: 40px;
     /* margin-bottom: 620; */
 }
 .top__content {
-    margin-top: 84;
-    margin-bottom: 162;
+    margin-top: 84px;
+    margin-bottom: 162px;
 }
 
 /* .top__info {
@@ -24,9 +24,9 @@
 
 .title {
     /* margin-top: 164; */
-    margin-bottom: 17;
+    margin-bottom: 17px;
 }
 
 .top_buttons {
-    margin-top: 37;
+    margin-top: 37px;
 }
