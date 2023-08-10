@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    padding-bottom: 96px;
+}
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* gap: 52px; */
+    /* margin-bottom: 620; */
+
+}
+
+.head-info {
+    display: flex;
+    max-width: 1170px;
+    justify-content: space-around;
+}
+
+.img-top {
+
+    margin-right: 500px;
+    max-width: 137px
+}
+
+.link_all {
+    display: flex;
+    /* justify-content: center; */
+    max-width: 533px;
+    gap: 35px;
+}
+
+.link0 {
+    font-size: 14px;
+    color: #F25822;
+}
+
+.link {
+    font-size: 14px;
+    color: #000000;
+}
+
+.top__content {
+    display: flex;
+    margin-top: 84px;
+    margin-bottom: 162px;
+    justify-content: center;
+}
+
+.top__info {
+    /* margin-top: 164;
+    margin-bottom: 162; */
+    margin-right: 39px;
+    max-width: 522px;
+}
+
+.title {
+    /* margin-top: 164; */
+    margin-bottom: 17px;
+    font-size: 60px;
+    color: #000000;
+}
+
+.text {
+    font-size: 20px;
+    color: #888888;
+}
+
+.top__buttons {
+    margin-top: 37px;
+    gap: 72px;
+}
+
+.top__buttons_button1 {
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #F25822;
+    border: none;
+    border-radius: 26px;
+    padding: 15px 32px;
+}
+
+.top__buttons_button2 {
+    font-size: 15px;
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 15px 32px;
+}
+
+.top__logos {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
