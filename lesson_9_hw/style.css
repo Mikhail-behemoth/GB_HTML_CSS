@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.header {
+    max-height: 491;
+    display: grid;
+    gap: 30px;
+    grid-template-columns:repeat(3, 381px);
+    justify-content: center;  
+}
+
+.item {
+    margin-top: 105px;
+    margin-bottom: 95px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.top__buttons {
+    display: flex;
+    justify-content: left;   
+}
+
+.top__buttons_button1 {
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+
+}
+.top__buttons_button2 {
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+}
+.top__buttons_button3 {
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+}
+
+.item_title {
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #000000;
+}
+
+.item_text {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #666666;
+}
+
+.item_b_title {
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #000000;
+    text-align: center
+}
+
+.item_b_text {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #666666;
+    text-align: center
+}
+
+.title {
+    font-size: 45px;
+    line-height: 52.73px;
+    color: #000000;
+    text-align: center
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-align: center
+}
+
+
+.top__content{
+    padding-top: 92px;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.top__info {
+    max-width: 682px;
+}
+
+.bottom {
+    display: grid;
+    gap: 35px;
+    grid-template-columns:repeat(3, 370px);
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.item_b {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bottom_img {
+    display: flex;
+    justify-content: center;   
+}
+
+.bottom__buttons {
+    display: flex;
+    justify-content: center;   
+}
+
+.bottom__buttons_button1 {
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #F25822;
+    border: none;
+    border-radius: 26px;
+    padding: 15px 36px;
+}
+.bottom__buttons_button2 {
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #F25822;
+    border: none;
+    border-radius: 26px;
+    padding: 15px 36px;
+}
+.bottom__buttons_button3 {
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #F25822;
+    border: none;
+    border-radius: 26px;
+    padding: 15px 36px;
+}
